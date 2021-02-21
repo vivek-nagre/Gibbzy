@@ -1,0 +1,111 @@
+/* nav bar */
+.nav-item{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    /* font-style: italic; */
+}
+
+
+.me ,.myteam{
+ text-transform: capitalize;   
+}
+.abt_cntr{
+    /* background-color: aqua; */
+    margin-top: 23px;
+}
+
+#foot{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    justify-content: center;
+    margin-top: 15px;
+}
+.card-text{
+    /* background: rgba(222, 232, 111, 0.9); */
+    font-size: 21px;
+    /* font-weight: bold; */
+    text-transform: capitalize;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.my_intro ,.myteam{
+    font-size: 20px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.reason{
+    color:red;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    background: rgba(0, 0, 0,0.3);
+    border-radius: 15%;
+}
+#service li{
+    background-color: black;
+
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+#service P{
+    background-color: bisque;
+    text-indent: 25px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 12px;
+    
+}
+
+    /* contact form */
+    .my_form{
+        
+        text-transform: capitalize;
+        background: url(./image/cnt.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .my_form label {
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .my_form label::after{
+        content: ":";
+    }
+    .my_form input{
+        text-transform: uppercase;
+    }
+    .my_form input[type=email]{
+        text-transform: lowercase !important;
+        
+    }
+   .d-grid button:hover{
+    background-color: green;
+    display: block;
+    margin: auto;
+    width: 30vw;
+   }
+   /* about page card title */
+   .bold_it{
+       text-transform: capitalize;
+       font-size: 24px;
+       font-weight: bold;
+       text-align: center;
+       letter-spacing: 5px;
+       
+   }
+   /* user final page */
+  .alert-success{
+      display: ab;
+      top: 50%;
+      left: 50%;
+      transform:  translate(-50%, -50%);
+  }
